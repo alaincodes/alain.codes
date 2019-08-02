@@ -1,0 +1,54 @@
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 900px;
+  margin: auto;
+  color: #4a4a4a;
+  .portfolio-h1 {
+    font-size: 2rem;
+    margin: 1rem auto;
+  }
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    max-width: 700px;
+
+    .project-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 5px;
+    }
+
+    .project-h2 {
+      margin: 1rem;
+    }
+    .project-p {
+      margin: 1rem;
+      max-width: 800px;
+    }
+    .project-btn {
+      background: transparent;
+      padding: 0.3rem;
+      border: 1px solid coral;
+      border-radius: 4px;
+      color: #4a4a4a;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      margin: 1rem;
+
+      &:hover {
+        background: coral;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-container {
+    flex-direction: column;
+  }
+}
