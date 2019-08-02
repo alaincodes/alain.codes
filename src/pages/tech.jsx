@@ -15,6 +15,17 @@ const Tech = () => {
           <li>ReactJS</li>
           <li>GraphQL</li>
         </ul>
+        <p className="tech-footer">
+          Alain Tran 2019 - Built with GatsbyJS <br />
+          <a
+            href="https://twitter.com/alaincodes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>{" "}
+          - contact@alain.codes
+        </p>
       </section>
     </div>
   )

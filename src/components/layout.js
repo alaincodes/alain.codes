@@ -20,7 +20,7 @@ const Layout = () => {
         </h1>
         <h2 className="main-h2">
           Je suis disponible pour completer votre équipe ou projet en freelance,
-          n'hesitez pas à me contacter sur
+          n'hésitez pas à me contacter sur
           <span>
             {" "}
             <a

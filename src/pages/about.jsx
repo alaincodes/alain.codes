@@ -20,7 +20,7 @@ const About = () => {
         <p className="about-p">
           Anciennement cuisinier à Paris, quand je ne code pas, vous me
           trouverez certainement entrain de regarder ou de lire des
-          livres/vidéos de cuisine ou simplement derrière les fourneaux.
+          livres/vidéos de cuisine ou simplement derrière les fourneaux !
         </p>
       </section>
     </div>
