@@ -33,14 +33,28 @@ html {
     color: #4a4a4a;
     margin: 1rem 1.5rem;
     .main-highlight {
-      color: coral;
+      color: #fa7268;
     }
   }
   .main-h2 {
     color: #4a4a4a;
     margin: 1rem 1.5rem;
     .main-highlight {
-      color: coral;
+      color: #fa7268;
+    }
+  }
+  .translateBtn {
+    background: transparent;
+    margin: 1rem 1.5rem;
+    padding: 0.5rem;
+    border: 1px solid #fa7268;
+    border-radius: 5px;
+    color: #fa7268;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    &:hover {
+      background: #fa7268;
+      color: #fafafa;
     }
   }
 }
