@@ -21,6 +21,7 @@ const Tech = () => {
             <li>JavaScript</li>
             <li>ReactJS</li>
             <li>GraphQL</li>
+            <li>Jest</li>
           </ul>
           <p className="tech-footer">
             Alain Tran 2019 - Built with GatsbyJS <br />
