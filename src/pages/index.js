@@ -5,17 +5,18 @@ import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <Helmet>
+    <Helmet>
+      <Layout>
         <html lang="en" amp />
         <meta charSet="utf-8" />
-        <head>
-          <title>Alain Tran | ReactJS | Front-end Developer</title>
-        </head>
+        <title>Alain Tran | ReactJS | Front-end Developer</title>
         <link rel="canonical" href="https://www.alain.codes" />
-        <meta name="description" content="Helmet application" />
-      </Helmet>
-    </Layout>
+        <meta
+          name="description"
+          content="Alain Tran, Front-end developer, ReactJS, JavaScript"
+        />
+      </Layout>
+    </Helmet>
   )
 }
 
