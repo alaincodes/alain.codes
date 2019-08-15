@@ -124,7 +124,7 @@ function Translating(props) {
 function FrenchButton(props) {
   return (
     <button className="translateBtn" onClick={props.onClick}>
-      French
+      Français
     </button>
   )
 }
