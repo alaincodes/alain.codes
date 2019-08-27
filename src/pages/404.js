@@ -6,6 +6,17 @@ const NotFoundPage = () => (
   <Layout>
     <h1>NOT FOUND</h1>
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <p>
+      Contact me on
+      <a
+        href="https://twitter.com/alaincodes"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Twitter
+      </a>
+      !
+    </p>
   </Layout>
 )
 

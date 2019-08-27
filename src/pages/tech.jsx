@@ -19,8 +19,11 @@ const Tech = () => {
             <li>HTML</li>
             <li>CSS/Sass</li>
             <li>JavaScript</li>
+            <li>NodeJS and Express</li>
             <li>ReactJS</li>
             <li>GraphQL</li>
+            <li>Redux</li>
+            <li>Webpack</li>
             <li>Jest</li>
           </ul>
           <p className="tech-footer">

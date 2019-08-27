@@ -49,10 +49,11 @@ function French(props) {
         <p className="about-p">
           Je développe des applications{" "}
           <span className="about-highlight">Web et Mobile</span> avec{" "}
-          <span className="about-highlight">ReactJS</span>. Je travaille avec
-          beaucoup d'appétit, d'honnêté et d'engagement. J'attache beaucoup
+          <span className="about-highlight">React & Express</span>. Je travaille
+          avec beaucoup d'appétit, d'honnêté et d'engagement. J'attache beaucoup
           d'importance aux <span className="about-highlight">design UI/UX</span>
-          , à l'<span className="about-highlight">Accessibilité</span> et aux{" "}
+          , à l'
+          <span className="about-highlight">Accessibilité</span> et aux{" "}
           <span className="about-highlight">Performances</span>.
         </p>
         <p className="about-p">
@@ -76,11 +77,14 @@ function English(props) {
       <animated.div style={anim}>
         <h1 className="about-h1">About</h1>
         <p className="about-p">
-          I build stuff for{" "}
-          <span className="about-highlight">Web & Mobile</span> devices using{" "}
-          <span className="about-highlight">ReactJS</span>. I work with a lot of
-          appetite, honesty and commitment. I also like create nice{" "}
-          <span className="about-highlight">UI/UX Design</span> and follow
+          I code for <span className="about-highlight">Web & Mobile</span>{" "}
+          devices using <span className="about-highlight">React & Express</span>
+          . I work with a lot of appetite, honesty and commitment. I also like
+          to create{" "}
+          <span className="about-highlight">
+            beautifully fast websites/apps
+          </span>{" "}
+          and follow
           <span className="about-highlight"> Accessibility</span> guidelines.
         </p>
         <p className="about-p">

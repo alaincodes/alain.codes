@@ -47,10 +47,9 @@ function French(props) {
       <animated.div style={anim}>
         <h1 className="main-h1">
           Hello, Je suis Alain,{" "}
-          <span className="main-highlight">Développeur Front-end Junior</span>.
+          <span className="main-highlight">Développeur Full Stack Junior</span>.
           Je code des applications{" "}
-          <span className="main-highlight">Web et Mobile</span> avec{" "}
-          <span className="main-highlight">ReactJS</span>.
+          <span className="main-highlight">Web et Mobile</span>.
         </h1>
         <h2 className="main-h2">
           Je suis disponible pour completer votre équipe ou projet en freelance,
@@ -85,10 +84,10 @@ function English(props) {
       <animated.div style={anim}>
         <h1 className="main-h1">
           Hello, I'm Alain{" "}
-          <span className="main-highlight">Junior Front-end Developer</span>. I
+          <span className="main-highlight">Junior Full Stack Developer</span>. I
           like to code for{" "}
           <span className="main-highlight">Web and Mobile </span>
-          devices using <span className="main-highlight">ReactJS</span>.
+          devices.
         </h1>
         <h2 className="main-h2">
           I'm available to complete your team and cool freelance/remote
