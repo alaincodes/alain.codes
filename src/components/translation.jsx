@@ -52,8 +52,8 @@ function French(props) {
           <span className="main-highlight">Web et Mobile</span>.
         </h1>
         <h2 className="main-h2">
-          Je suis disponible pour completer votre équipe ou projet en freelance,
-          n'hésitez pas à me contacter sur
+          Je suis disponible pour les projets freelance ou remote, n'hésitez pas
+          à me contacter sur
           <span>
             {" "}
             <a
@@ -90,8 +90,7 @@ function English(props) {
           devices.
         </h1>
         <h2 className="main-h2">
-          I'm available to complete your team and cool freelance/remote
-          opportunities, hit me up on
+          I'm available for cool freelance/remote opportunities, hit me up on
           <span>
             {" "}
             <a
