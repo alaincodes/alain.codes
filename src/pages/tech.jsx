@@ -14,12 +14,12 @@ const Tech = () => {
       <Header />
       <section className="tech-container">
         <animated.div style={anim}>
-          <h1 className="tech-h1">Technologies</h1>
+          <h1 className="tech-h1">Current Stacks</h1>
           <ul className="tech-ul">
             <li>HTML</li>
             <li>CSS/Sass</li>
             <li>JavaScript</li>
-            <li>NodeJS and Express</li>
+            <li>NodeJS & Express</li>
             <li>ReactJS</li>
             <li>GraphQL</li>
             <li>Redux</li>

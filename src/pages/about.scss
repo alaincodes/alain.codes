@@ -18,20 +18,20 @@
     color: #4a4a4a;
     margin: 1rem 1.5rem;
     .about-highlight {
-      color: #fa7268;
+      color: #d4372b;
     }
   }
   .translateBtn {
     background: transparent;
     margin: 1rem 1.5rem;
     padding: 0.5rem;
-    border: 1px solid #fa7268;
+    border: 1px solid #d4372b;
     border-radius: 5px;
-    color: #fa7268;
+    color: #d4372b;
     transition: all 0.2s ease-in;
     cursor: pointer;
     &:hover {
-      background: #fa7268;
+      background: #d4372b;
       color: #fafafa;
     }
   }
