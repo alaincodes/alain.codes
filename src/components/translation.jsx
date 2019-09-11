@@ -63,10 +63,9 @@ function French(props) {
               rel="noopener noreferrer"
             >
               Twitter
-            </a>{" "}
-          </span>{" "}
-          ou par Email:
-          <span className="main-highlight"> contact@alain.codes</span>
+            </a>
+          </span>
+          .
         </h2>
       </animated.div>
     </div>
@@ -102,9 +101,7 @@ function English(props) {
               Twitter
             </a>{" "}
           </span>{" "}
-          or send me an Email:
-          <span className="main-highlight"> contact@alain.codes</span> for
-          future projects!
+          for future projects!
         </h2>
       </animated.div>
     </div>
