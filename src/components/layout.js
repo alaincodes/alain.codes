@@ -5,6 +5,7 @@ import Header from "./header"
 import avatar from "../images/alaintran.jpg"
 import github from "../images/GitHub32px.png"
 import twitter from "../images/Twitter.png"
+import dribbble from "../images/dribbble.svg"
 
 import "./layout.scss"
 import Translate from "./translation"
@@ -32,7 +33,7 @@ const Layout = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github} alt="" />
+            <img src={github} alt="github logo" />
           </a>
           <a
             className="socials-btn"
@@ -40,7 +41,15 @@ const Layout = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={twitter} alt="" />
+            <img src={twitter} alt="twitter logo" />
+          </a>
+          <a
+            className="socials-btn"
+            href="https://dribbble.com/alaincodes"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={dribbble} alt="dribbble logo" />
           </a>
         </span>
 

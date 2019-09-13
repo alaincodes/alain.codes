@@ -17,10 +17,25 @@
     align-items: center;
     margin: 1rem auto;
     max-width: 700px;
+    .project-btn {
+      background: transparent;
+      padding: 0.3rem;
+      border-radius: 4px;
+      color: #4a4a4a;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      margin: 1rem;
+      color: #d4372b;
+      transition: all 0.4s ease-in-out;
+      filter: drop-shadow(0px 2px 1px black);
 
-    .project-img {
-      width: 150px;
-      border-radius: 5px;
+      &:hover {
+        filter: drop-shadow(0px 5px 3px black);
+      }
+      .project-img {
+        width: 150px;
+        border-radius: 5px;
+      }
     }
 
     .project-h2 {
@@ -29,22 +44,6 @@
     .project-p {
       margin: 1rem;
       max-width: 800px;
-    }
-    .project-btn {
-      background: transparent;
-      padding: 0.3rem;
-      border: 1px solid #d4372b;
-      border-radius: 4px;
-      color: #4a4a4a;
-      text-decoration: none;
-      transition: all 0.3s ease;
-      margin: 1rem;
-      color: #d4372b;
-
-      &:hover {
-        background: #d4372b;
-        color: #fff;
-      }
     }
   }
 }

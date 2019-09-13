@@ -20,61 +20,69 @@ const Portfolio = () => {
         <animated.div style={anim}>
           <h1 className="portfolio-h1">Recent Works</h1>
           <div className="project-container">
-            <img className="project-img" src={bouteille} alt="" />
+            <a
+              href="https://alaincodes.github.io/website-navbar-onscroll/"
+              target="_blank"
+              className="project-btn"
+              rel="noopener noreferrer"
+            >
+              <img className="project-img" src={bouteille} alt="" />
+            </a>
+
             <div>
               <h2 className="project-h2">Landing Page</h2>
               <p className="project-p">
                 Company landing page project, using HTML, CSS and JavaScript.
                 Wanted to build the back to top button..
               </p>
-              <a
-                href="https://alaincodes.github.io/website-navbar-onscroll/"
-                target="_blank"
-                className="project-btn"
-                rel="noopener noreferrer"
-              >
-                Demo
-              </a>
             </div>
           </div>
           <div className="project-container">
-            <img className="project-img" src={startup} alt="" />
+            <a
+              href="https://competent-murdock-45eab5.netlify.com/"
+              target="_blank"
+              className="project-btn"
+              rel="noopener noreferrer"
+            >
+              <img className="project-img" src={startup} alt="" />
+            </a>
+
             <div>
               <h2 className="project-h2">Startup Landing Page</h2>
               <p className="project-p">
                 This landing page is built with GatsbyJS! Just an excuse to try
                 Gatsby.. annnd I agree it's awesome.
               </p>
-              <a
-                href="https://competent-murdock-45eab5.netlify.com/"
-                target="_blank"
-                className="project-btn"
-                rel="noopener noreferrer"
-              >
-                Demo
-              </a>
             </div>
           </div>
           <div className="project-container">
-            <img className="project-img" src={clout} alt="" />
+            <a
+              href="https://clout.netlify.com/"
+              target="_blank"
+              className="project-btn"
+              rel="noopener noreferrer"
+            >
+              <img className="project-img" src={clout} alt="" />
+            </a>
+
             <div>
               <h2 className="project-h2">Design Agency</h2>
               <p className="project-p">
                 Trying to build web agency using ReactJS and ReactRouter. Next
                 step is image optimization.
               </p>
-              <a
-                href="https://clout.netlify.com/"
-                target="_blank"
-                className="project-btn"
-                rel="noopener noreferrer"
-              >
-                Demo
-              </a>
             </div>
           </div>
           <div className="project-container">
-            <img className="project-img" src={papyrus} alt="" />
+            <a
+              href="https://papyrus-project.alaincodes.now.sh/"
+              target="_blank"
+              className="project-btn"
+              rel="noopener noreferrer"
+            >
+              <img className="project-img" src={papyrus} alt="" />
+            </a>
+
             <div>
               <h2 className="project-h2">Personal Project</h2>
               <p className="project-p">
@@ -82,14 +90,6 @@ const Portfolio = () => {
                 because I want to write stuff but not too much.. Still working
                 on it!
               </p>
-              <a
-                href="https://papyrus-project.alaincodes.now.sh/"
-                target="_blank"
-                className="project-btn"
-                rel="noopener noreferrer"
-              >
-                Demo
-              </a>
             </div>
           </div>
         </animated.div>
