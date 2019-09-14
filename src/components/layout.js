@@ -9,6 +9,7 @@ import dribbble from "../images/dribbble.svg"
 
 import "./layout.scss"
 import Translate from "./translation"
+import Main from "./main"
 
 const Layout = () => {
   return (
@@ -53,7 +54,7 @@ const Layout = () => {
           </a>
         </span>
 
-        <Translate />
+        <Main />
       </main>
     </>
   )

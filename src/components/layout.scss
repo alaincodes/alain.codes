@@ -47,7 +47,7 @@ html {
     }
   }
   .main-h2 {
-    color: #4a4a4a;
+    color: #6d6d6d;
     margin: 1rem 1.5rem;
     .main-highlight {
       color: #d4372b;
@@ -71,12 +71,19 @@ html {
 
 @media only screen and (max-width: 600px) {
   html {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .main-container {
     .avatar {
       width: 140px;
       height: 140px;
+    }
+    .socials {
+      .socials-btn {
+        img {
+          width: 24px;
+        }
+      }
     }
   }
 }
