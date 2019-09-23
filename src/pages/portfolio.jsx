@@ -21,7 +21,7 @@ const Portfolio = () => {
           <h1 className="portfolio-h1">Recent Works</h1>
           <div className="project-container">
             <a
-              href="https://alaincodes.github.io/website-navbar-onscroll/"
+              href="https://gracious-kowalevski-588c86.netlify.com"
               target="_blank"
               className="project-btn"
               rel="noopener noreferrer"
