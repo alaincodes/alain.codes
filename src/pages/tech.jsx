@@ -27,15 +27,14 @@ const Tech = () => {
             <li>Jest</li>
           </ul>
           <p className="tech-footer">
-            Alain Tran 2019 - Built with GatsbyJS <br />
+            Alain Tran 2019 - Built with GatsbyJS -{" "}
             <a
               href="https://twitter.com/alaincodes"
               target="_blank"
               rel="noopener noreferrer"
             >
               Twitter
-            </a>{" "}
-            - contact@alain.codes
+            </a>
           </p>
         </animated.div>
       </section>

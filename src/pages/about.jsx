@@ -19,10 +19,9 @@ const About = () => {
             <h1 className="about-h1">About</h1>
             <p className="about-p">
               I code for <span className="about-highlight">Web & Mobile</span>{" "}
-              devices using{" "}
-              <span className="about-highlight">React & Express</span>. I work
-              with a lot of appetite, honesty and commitment. I also like to
-              create{" "}
+              devices using <span className="about-highlight">JavaScript</span>{" "}
+              related tools (React & Node.js most of the time). I work with a
+              lot of appetite, honesty and commitment. I like to create{" "}
               <span className="about-highlight">
                 beautifully fast websites/apps
               </span>{" "}

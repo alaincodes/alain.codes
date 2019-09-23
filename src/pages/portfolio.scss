@@ -13,7 +13,7 @@
   }
   .project-container {
     display: flex;
-    justify-content: center;
+
     align-items: center;
     margin: 1rem auto;
     max-width: 700px;
@@ -26,24 +26,16 @@
       transition: all 0.3s ease;
       margin: 1rem;
       color: #d4372b;
-      transition: all 0.4s ease-in-out;
+      transition: all 0.1s ease-in-out;
       filter: drop-shadow(0px 2px 1px black);
 
       &:hover {
-        filter: drop-shadow(0px 5px 3px black);
+        filter: drop-shadow(0px 4px 3px black);
       }
       .project-img {
         width: 150px;
         border-radius: 5px;
       }
-    }
-
-    .project-h2 {
-      margin: 0 1rem 1rem 1rem;
-    }
-    .project-p {
-      margin: 1rem;
-      max-width: 800px;
     }
   }
 }

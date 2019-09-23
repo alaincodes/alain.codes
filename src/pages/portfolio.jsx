@@ -31,10 +31,7 @@ const Portfolio = () => {
 
             <div>
               <h2 className="project-h2">Landing Page</h2>
-              <p className="project-p">
-                Company landing page project, using HTML, CSS and JavaScript.
-                Wanted to build the back to top button..
-              </p>
+              <p className="project-p">NextJS, Sass</p>
             </div>
           </div>
           <div className="project-container">
@@ -49,10 +46,7 @@ const Portfolio = () => {
 
             <div>
               <h2 className="project-h2">Startup Landing Page</h2>
-              <p className="project-p">
-                This landing page is built with GatsbyJS! Just an excuse to try
-                Gatsby.. annnd I agree it's awesome.
-              </p>
+              <p className="project-p">GatsbyJS, CSS</p>
             </div>
           </div>
           <div className="project-container">
@@ -67,10 +61,7 @@ const Portfolio = () => {
 
             <div>
               <h2 className="project-h2">Design Agency</h2>
-              <p className="project-p">
-                Trying to build web agency using ReactJS and ReactRouter. Next
-                step is image optimization.
-              </p>
+              <p className="project-p">React, Sass</p>
             </div>
           </div>
           <div className="project-container">
@@ -85,11 +76,7 @@ const Portfolio = () => {
 
             <div>
               <h2 className="project-h2">Personal Project</h2>
-              <p className="project-p">
-                My main side project, place to post small text content, just
-                because I want to write stuff but not too much.. Still working
-                on it!
-              </p>
+              <p className="project-p">NextJS, Sass</p>
             </div>
           </div>
         </animated.div>

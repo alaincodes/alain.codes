@@ -16,7 +16,8 @@ const Main = () => {
           <span className="main-highlight">Junior Full Stack Developer</span>,
           living in Paris. I like to code for{" "}
           <span className="main-highlight">Web and Mobile </span>
-          devices.
+          devices, using{" "}
+          <span className="main-highlight">JavaScript, React & Node.js</span>.
         </h1>
         <h2 className="main-h2">
           I'm available for cool freelance/remote opportunities, hit me up on

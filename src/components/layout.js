@@ -8,7 +8,6 @@ import twitter from "../images/Twitter.png"
 import dribbble from "../images/dribbble.svg"
 
 import "./layout.scss"
-import Translate from "./translation"
 import Main from "./main"
 
 const Layout = () => {
