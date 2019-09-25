@@ -16,11 +16,11 @@ const Layout = () => {
       <Helmet>
         <html lang="en" amp />
         <meta charSet="utf-8" />
-        <title>Alain Tran - Full Stack Developer - ReactJS - NodeJS</title>
+        <title>Alain Tran - Frontend Developer - ReactJS - NodeJS</title>
         <link rel="canonical" href="https://alain.codes" />
         <meta
           name="description"
-          content="Alain Tran, Full Stack developer | ReactJS | JavaScript - Learning and experiencing new things everyday."
+          content="Alain Tran, Frontend developer | ReactJS | JavaScript - Learning and experiencing new things everyday."
         />
       </Helmet>
       <Header />

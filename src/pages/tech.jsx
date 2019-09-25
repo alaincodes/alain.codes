@@ -22,7 +22,6 @@ const Tech = () => {
             <li>NodeJS & Express</li>
             <li>ReactJS</li>
             <li>GraphQL</li>
-            <li>Redux</li>
             <li>Webpack</li>
             <li>Jest</li>
           </ul>
