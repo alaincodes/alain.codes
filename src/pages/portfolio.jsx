@@ -22,7 +22,7 @@ const Portfolio = () => {
           <h1 className="portfolio-h1">Recent Projects</h1>
           <div className="project-container">
             <a
-              href="https://bloggies.netlify.com/"
+              href="https://lit-bastion-97560.herokuapp.com/"
               target="_blank"
               className="project-btn"
               rel="noopener noreferrer"
