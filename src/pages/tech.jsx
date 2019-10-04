@@ -19,11 +19,10 @@ const Tech = () => {
             <li>HTML</li>
             <li>CSS/Sass</li>
             <li>JavaScript</li>
-            <li>NodeJS & Express</li>
-            <li>ReactJS</li>
+            <li>Node.js</li>
+            <li>React</li>
             <li>GraphQL</li>
-            <li>Webpack</li>
-            <li>Jest</li>
+            <li>Jest/Testing Library</li>
           </ul>
           <p className="tech-footer">
             Alain Tran 2019 - Built with GatsbyJS -{" "}

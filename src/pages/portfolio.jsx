@@ -5,6 +5,7 @@ import bouteille from "../images/bouteille.png"
 import startup from "../images/startup.png"
 import clout from "../images/clout.png"
 import papyrus from "../images/papyrus.png"
+import bloggy from "../images/bloggy.png"
 import { useSpring, animated } from "react-spring"
 
 const Portfolio = () => {
@@ -18,7 +19,22 @@ const Portfolio = () => {
       <Header />
       <section className="portfolio-container">
         <animated.div style={anim}>
-          <h1 className="portfolio-h1">Recent Works</h1>
+          <h1 className="portfolio-h1">Recent Projects</h1>
+          <div className="project-container">
+            <a
+              href="https://bloggies.netlify.com/"
+              target="_blank"
+              className="project-btn"
+              rel="noopener noreferrer"
+            >
+              <img className="project-img" src={bloggy} alt="" />
+            </a>
+
+            <div>
+              <h2 className="project-h2">Papyrus v2</h2>
+              <p className="project-p">React, Sass</p>
+            </div>
+          </div>
           <div className="project-container">
             <a
               href="https://gracious-kowalevski-588c86.netlify.com"
