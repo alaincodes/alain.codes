@@ -7,6 +7,7 @@ import clout from "../images/clout.png"
 import papyrus from "../images/papyrus.png"
 import bloggy from "../images/bloggy.png"
 import onlyjs from "../images/onlyjs.png"
+import countries from "../images/countries.png"
 import { useSpring, animated } from "react-spring"
 
 const Portfolio = () => {
@@ -29,12 +30,35 @@ const Portfolio = () => {
                 className="project-btn"
                 rel="noopener noreferrer"
               >
-                <img className="project-img" src={onlyjs} alt="" />
+                <img
+                  className="project-img"
+                  src={onlyjs}
+                  alt="website only javascript"
+                />
               </a>
 
               <div>
-                <h2 className="project-h2">Only JavaScript</h2>
-                <p className="project-p">JavaScript, CSS</p>
+                <h2 className="project-h2">Only JS</h2>
+                <p className="project-p">JavaScript, ReactJS, Sass</p>
+              </div>
+            </div>
+            <div className="project-container">
+              <a
+                href="https://countries-rest.netlify.com/"
+                target="_blank"
+                className="project-btn"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className="project-img"
+                  src={countries}
+                  alt="rest countries website"
+                />
+              </a>
+
+              <div>
+                <h2 className="project-h2">REST Api Countries</h2>
+                <p className="project-p">JavaScript, React, Sass</p>
               </div>
             </div>
             <div className="project-container">
