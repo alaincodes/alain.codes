@@ -20,7 +20,8 @@ const Main = () => {
           <span className="main-highlight">JavaScript, React & Node.js</span>.
         </h1>
         <h2 className="main-h2">
-          I'm available for cool freelance/remote opportunities, hit me up on
+          I'm available for hire or cool freelance/remote opportunities, hit me
+          up on
           <span>
             {" "}
             <a

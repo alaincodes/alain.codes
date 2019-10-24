@@ -5,7 +5,6 @@ import Header from "./header"
 import avatar from "../images/alaintran.jpg"
 import github from "../images/GitHub32px.png"
 import twitter from "../images/Twitter.png"
-import dribbble from "../images/dribbble.svg"
 
 import "./layout.scss"
 import Main from "./main"
@@ -42,14 +41,6 @@ const Layout = () => {
             rel="noopener noreferrer"
           >
             <img src={twitter} alt="twitter logo" />
-          </a>
-          <a
-            className="socials-btn"
-            href="https://dribbble.com/alaincodes"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={dribbble} alt="dribbble logo" />
           </a>
         </span>
 

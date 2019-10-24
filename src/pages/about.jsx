@@ -21,18 +21,12 @@ const About = () => {
               I code for <span className="about-highlight">Web & Mobile</span>{" "}
               devices using <span className="about-highlight">JavaScript</span>{" "}
               related tools (React & Node.js most of the time). I work with a
-              lot of appetite, honesty and commitment. I like to create{" "}
-              <span className="about-highlight">
-                beautifully fast websites/apps
-              </span>{" "}
-              and follow
-              <span className="about-highlight"> Accessibility</span>{" "}
-              guidelines.
-            </p>
-            <p className="about-p">
-              Outside of programming, you will probably see me reading, watching
-              cooking stuff or in front of the stove, I was working as a cook in
-              Paris years ago !!
+              lot of appetite, honesty and commitment. I like to create nice
+              responsive
+              <span className="about-highlight"> User Interfaces</span>, I also
+              like to use testing tools and follow
+              <span className="about-highlight"> Accessibility & Web</span>{" "}
+              standards.
             </p>
           </animated.div>
         </div>
