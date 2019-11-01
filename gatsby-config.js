@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Alain Tran`,
-    description: `This is my personal website!`,
+    description: `Alain Tran, Frontend Developer, JavaScript, ReactJS, Sass, Nodejs.`,
     author: `@alaincodes`,
   },
   plugins: [
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `alain-personal-website`,
+        name: `alaintran`,
         short_name: `alaincodes`,
         start_url: `/`,
         background_color: `#f2f2f2`,

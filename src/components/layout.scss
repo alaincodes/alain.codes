@@ -21,7 +21,8 @@ html {
   flex-direction: column;
   max-width: 900px;
   margin: auto;
-  min-height: 90vh;
+  height: calc(100vh - 76px);
+
   .avatar {
     width: 200px;
     height: 200px;
@@ -74,6 +75,7 @@ html {
     font-size: 0.8rem;
   }
   .main-container {
+    height: calc(100vh - 77.59px);
     .avatar {
       width: 140px;
       height: 140px;

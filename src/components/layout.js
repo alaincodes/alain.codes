@@ -15,7 +15,9 @@ const Layout = () => {
       <Helmet>
         <html lang="en" amp />
         <meta charSet="utf-8" />
-        <title>Alain Tran - Frontend Developer - ReactJS - NodeJS</title>
+        <title>
+          Alain Tran - Frontend Developer - JavaScript - ReactJS - NodeJS
+        </title>
         <link rel="canonical" href="https://alain.codes" />
         <meta
           name="description"
@@ -24,7 +26,7 @@ const Layout = () => {
       </Helmet>
       <Header />
       <main className="main-container">
-        <img className="avatar" src={avatar} alt="photography of alain" />
+        <img className="avatar" src={avatar} alt="alain" />
         <span className="socials">
           <a
             className="socials-btn"
@@ -32,7 +34,7 @@ const Layout = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github} alt="github logo" />
+            <img src={github} alt="github" />
           </a>
           <a
             className="socials-btn"
@@ -40,7 +42,7 @@ const Layout = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={twitter} alt="twitter logo" />
+            <img src={twitter} alt="twitter" />
           </a>
         </span>
 

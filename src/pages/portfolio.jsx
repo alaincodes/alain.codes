@@ -108,21 +108,6 @@ const Portfolio = () => {
             </div>
             <div className="project-container">
               <a
-                href="https://clout.netlify.com/"
-                target="_blank"
-                className="project-btn"
-                rel="noopener noreferrer"
-              >
-                <img className="project-img" src={clout} alt="" />
-              </a>
-
-              <div>
-                <h2 className="project-h2">Design Agency</h2>
-                <p className="project-p">React, Sass</p>
-              </div>
-            </div>
-            <div className="project-container">
-              <a
                 href="https://papyrus-project.alaincodes.now.sh/"
                 target="_blank"
                 className="project-btn"

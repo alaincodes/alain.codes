@@ -6,6 +6,7 @@
   max-width: 900px;
   margin: auto;
   color: #4a4a4a;
+  height: calc(100vh - 76px);
   .portfolio-h1 {
     font-size: 2rem;
     margin: 1.5rem auto;
@@ -44,6 +45,7 @@
 
 @media only screen and (max-width: 600px) {
   .portfolio-container {
+    height: 100%;
     .portfolio-grid {
       display: grid;
       grid-template-columns: repeat(1, 1fr);

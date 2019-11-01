@@ -5,7 +5,7 @@
   flex-direction: column;
   max-width: 800px;
   margin: auto;
-  min-height: 90vh;
+  height: calc(100vh - 76px);
   .about-h1 {
     color: #4a4a4a;
     margin: 1rem auto;
@@ -34,5 +34,14 @@
       background: #d4372b;
       color: #fafafa;
     }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 0.8rem;
+  }
+  .about-container {
+    height: calc(100vh - 77.59px);
   }
 }
