@@ -20,12 +20,9 @@ const Tech = () => {
             <li>CSS/Sass</li>
             <li>JavaScript</li>
             <li>Node.js</li>
-            <li>React</li>
-            <li>GraphQL</li>
-            <li>Jest/Testing Library</li>
           </ul>
           <p className="tech-footer">
-            Alain Tran 2019 - Built with GatsbyJS -{" "}
+            Alain Tran 2020 - Built with GatsbyJS -{" "}
             <a
               href="https://twitter.com/alaincodes"
               target="_blank"
