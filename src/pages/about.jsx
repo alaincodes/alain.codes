@@ -18,15 +18,10 @@ const About = () => {
           <animated.div style={anim}>
             <h1 className="about-h1">About</h1>
             <p className="about-p">
-              I code for <span className="about-highlight">Web & Mobile</span>{" "}
-              devices using <span className="about-highlight">JavaScript</span>{" "}
-              related tools (React & Node.js most of the time). I work with a
-              lot of appetite, honesty and commitment. I like to create nice
-              responsive
-              <span className="about-highlight"> User Interfaces</span>, I also
-              like to use testing tools and follow
-              <span className="about-highlight"> Accessibility & Web</span>{" "}
-              standards.
+              I code for <span className="about-highlight">Desktop & Mobile</span>{" "}
+              devices using <span className="about-highlight">Sass & JavaScript</span>{" "}
+              related tools. I work with a
+              lot of appetite, honesty and commitment.
             </p>
           </animated.div>
         </div>
