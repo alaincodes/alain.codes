@@ -13,10 +13,7 @@ const Main = () => {
       <animated.div style={anim}>
         <h1 className="main-h1">
           Hello, I'm Alain{" "}
-          <span className="main-highlight">Frontend Developer</span>. I like to
-          code for <span className="main-highlight">Web and Mobile </span>
-          devices, using{" "}
-          <span className="main-highlight">JavaScript, React & Node.js</span>.
+          <span className="main-highlight">Frontend Developer</span>.
         </h1>
         {/* <h2 className="main-h2">
           I'm available for hire or cool freelance/remote opportunities, hit me
