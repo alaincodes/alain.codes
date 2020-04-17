@@ -24,7 +24,6 @@ const Layout = () => {
           content="Alain Tran, Frontend developer | ReactJS | JavaScript - Learning and experiencing new things everyday."
         />
       </Helmet>
-      <Header />
       <main className="main-container">
         <img className="avatar" src={avatar} alt="alain" />
         <span className="socials">
