@@ -1,0 +1,44 @@
+.main {
+  width: 1920px;
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary;
+}
+
+.content {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $highlight;
+  border: 2px solid $stroke;
+  border-radius: 6px;
+  padding: 20px;
+
+  .content__title {
+    color: $title;
+    margin-bottom: 10px;
+  }
+
+  .content__subtitle {
+    color: $text;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .content__list {
+    display: flex;
+
+    .list__item {
+      width: 40px;
+      margin: 5px;
+      color: $text;
+      cursor: pointer;
+    }
+  }
+}
