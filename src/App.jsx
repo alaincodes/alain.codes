@@ -11,7 +11,7 @@ function App() {
 			<section className="main">
 				<main className="content">
 					<h1 className="content__title">Alain Tran</h1>
-					<h2 className="content__subtitle">Frontend Developer</h2>
+					<h2 className="content__subtitle">Frontend Gangsta</h2>
 					<ul className="content__list">
 						<li className="list__item">
 							<a
