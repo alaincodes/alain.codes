@@ -1,6 +1,5 @@
 import React from "react";
 
-import github from "./images/icons/github.png";
 import twitter from "./images/icons/twitter.svg";
 
 import "./App.scss";
@@ -13,16 +12,6 @@ function App() {
 					<h1 className="content__title">Alain Tran</h1>
 					<h2 className="content__subtitle">Frontend Gangsta</h2>
 					<ul className="content__list">
-						<li className="list__item">
-							<a
-								className="item__link"
-								href="https://github.com/alaincodes"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<img src={github} alt="" />
-							</a>
-						</li>
 						<li className="list__item">
 							<a
 								className="item__link"
