@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.title {
+  margin-bottom: 10px;
+  color: #ff4949;
+  line-height: normal;
+}
+
+.description {
+  margin-bottom: 10px;
+  color: seagreen;
+}
+
+.link {
+  color: royalblue;
+}
+
+.link:hover {
+  color: cyan;
+}
